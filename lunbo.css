@@ -1,0 +1,123 @@
+/*杞挱鍥鹃儴鍒*/
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+li{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+@media screen and (min-width:300px) and (max-width:699px){
+    .lunbo-outer{
+        width:100%;
+        /*height:160px;*/
+        margin:0 auto;
+        overflow: hidden;
+        position:relative;
+    }
+    .lunbo-main{
+        /*width:1320px;*/
+        width:100%;
+        /*height:160px;*/
+        position:relative;
+        /*overflow: hidden;*/
+        /*transition:left 1.5s;*/
+    }
+}
+@media screen and (max-width:300px){
+    .lunbo-outer{
+        width:100%;
+        /*height:120px;*/
+        margin:0 auto;
+        overflow: hidden;
+        position:relative;
+    }
+    .lunbo-main{
+        /*width:1320px;*/
+        width:100%;
+        /*height:120px;*/
+        position:relative;
+        /*overflow: hidden;*/
+        /*transition:left 1.5s;*/
+    }
+}
+@media screen and (min-width:700px){
+    .lunbo-outer{
+        width:100%;
+        /*height:120px;*/
+        margin:0 auto;
+        overflow: hidden;
+        position:relative;
+    }
+    .lunbo-main{
+        /*width:1320px;*/
+        width:100%;
+        /*height:120px;*/
+        position:relative;
+        /*overflow: hidden;*/
+        /*transition:left 1.5s;*/
+    }
+}
+.lunbo-main:after,.lunbo-tt:after,.lunbo-outer:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+.lunbo-main>li{
+    float: left;
+}
+.lunbo-main a{
+    display: block;
+    height: 100%;
+}
+.lunbo-main>li{
+	width:100%;
+	height:100%;
+}
+.lunbo-container{
+    /*width:200px;*/
+    height:150px;
+    float:left;
+    /*margin-right:20px;*/
+}
+/*.lunbo-hover{
+    background:#3c3c3c;
+}*/
+.lunbo-outer img{
+    width:100%;
+    vertical-align:bottom;
+}
+.lunbo-tt{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+}
+.lunbo-tt li{
+    float:left;
+    text-align: center;
+    margin:0 5px;
+}
+.lunbo-tt i{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: #ccc;
+    opacity: 0.9;
+    border: 1px solid #000000;
+}
+.lunbo-tt .lunbo-active{
+    background:#fff;
+}
+/* .jumplink{
+    cursor:not-allowed;
+} */
+.lunbo-imgsss{
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
